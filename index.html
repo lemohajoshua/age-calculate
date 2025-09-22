@@ -12,15 +12,18 @@
             <form action="">
                 <div>
                     <label for="day">DAY</label>
-                    <input type="text" id="day" name="day" placeholder="DD">
+                    <input type="number" id="day" name="day" placeholder="DD" min="1" max="31">
+                    <small id="day-error" class="error"></small>
                 </div>
                 <div>
                     <label for="month">MONTH</label>
-                    <input type="text" id="month" name="month" placeholder="MM">
+                    <input type="text" id="month" name="month" placeholder="MM" min="1" max="12">
+                    <small id="month-error" class="error"></small>
                 </div>
                 <div>
                     <label for="year">YEAR</label>
-                    <input type="text" id="year" name="year" placeholder="YYYY">
+                    <input type="text" id="year" name="year" placeholder="YYYY" min="1000" max="9999">
+                    <small id="year-error" class="error"></small>
                 </div>
             </form>
             <div class="image" id="submit">

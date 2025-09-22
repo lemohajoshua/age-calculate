@@ -47,6 +47,12 @@ input::placeholder {
     font-weight: 800;
     font-size: clamp(12px, 15px, 20px);
 }
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0.3rem;
+    font-family: poppins;
+}
 .image {
     background: hsl(259, 100%, 65%);
     width: 2rem;
@@ -72,9 +78,9 @@ input::placeholder {
     .parent {
         width: 70vw;
     }
-    .child {
-        /* width: 70vw; */
-    }
+    /* .child {
+        width: 70vw;
+    } */
     
     form {
         justify-content: center;
